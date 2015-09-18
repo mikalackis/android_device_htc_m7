@@ -39,6 +39,10 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 27917287424
 BOARD_CACHEIMAGE_PARTITION_SIZE := 671088128
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 
+BOARD_SEPOLICY_DIRS += /opt/cm-12.1/device/htc/m7/sepolicy
+BOARD_SEPOLICY_UNION +=\
+	seapp_contexts
+
 # cat /proc/emmc:
 # dev:        size     erasesize name
 # mmcblk0p19: 000ffa00 00000200 "misc"

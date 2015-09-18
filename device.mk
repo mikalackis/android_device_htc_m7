@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
     FM2 \
     FMRecord \
     libqcomfm_jni \
-    qcom.fmradio
+    qcom.fmradio \
+    AntiTheft
 
 # Inherit from m7-common
 $(call inherit-product, device/htc/m7-common/m7-common.mk)
